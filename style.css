@@ -492,7 +492,10 @@ a:hover{
 	body{
 		max-width: 480px;
 		width: 100%;
-		height: 100%;
+		height: 100% ! important;
+		align-content: center;
+		background-color: #1f1a5c;
+		justify-content: center;
 	}
 
 	.canvas{
@@ -513,7 +516,10 @@ a:hover{
 	body{
 		max-width: 375px;
 		width: 100%;
-		height: 100%;
+		height: 100% ! important;
+		align-content: center;
+		background-color: #1f1a5c;
+		justify-content: center;
 	}
 
 	.canvas{
