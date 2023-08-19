@@ -1,9 +1,11 @@
-let section = document.querySelector(".skills");
-let spans = document.querySelectorAll(".bar");
+// let section = document.querySelector(".skills");
+// let spans = document.querySelectorAll(".bar");
 // var section = document.getElementById('skills');
 
 
 window.onscroll = function(){
+	const section = document.getElementById('skills');
+	const spans = section.querySelectorAll(".bar");
 	if (window.scrollY >= section.offsetTop) {
 		console.log("Reached Section Skills");
 		spans.forEach((span) => {
