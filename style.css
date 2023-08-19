@@ -12,7 +12,7 @@ html{
 body{
 	width: 100%;
 	min-height: 100% !important;
-	max-width: 1200px;
+	max-width: 1920px;
 	margin: 0 auto;
 	background-color: white;
 	font-family: 'Courier';
@@ -26,6 +26,7 @@ body{
 	padding: 5px;
 	align-content: center;
 	background-color: #1f1a5c;
+	justify-content: center;
 /*	background-color: #fcf4e7;*/
 /*	border: 1px solid black;*/
 
@@ -154,11 +155,6 @@ a:active{
 	font-weight: bold;
 }
 
-/*about me*/
-
-/*.btn{
-	scroll-margin-top: 70px;
-}*/
 
 #about{
 	height: 100%;
@@ -275,7 +271,7 @@ a:active{
 }
 
 
-.skill-bar .bar span{
+.skill-bar .bar span {
 	width: 50%;
 	height: 100%;
 	position: absolute;
@@ -284,7 +280,7 @@ a:active{
 
 }
 
-.skill-bar .bar .html{
+.skill-bar .bar .html {
 	width: 80%;
 	animation: html 5s;
 	/*animation-delay: 1s;*/
@@ -383,7 +379,6 @@ a:active{
 }
 
 .etona{
-	/*margin: 10px;*/
 	text-align: center;
 	color: #ffffff;
 }
@@ -492,7 +487,7 @@ a:hover{
 	body{
 		max-width: 480px;
 		width: 100%;
-		height: 100% ! important;
+		min-height: 100% !important;
 		align-content: center;
 		background-color: #1f1a5c;
 		justify-content: center;
@@ -516,7 +511,7 @@ a:hover{
 	body{
 		max-width: 375px;
 		width: 100%;
-		height: 100% ! important;
+		min-height: 100% !important;
 		align-content: center;
 		background-color: #1f1a5c;
 		justify-content: center;
@@ -526,7 +521,7 @@ a:hover{
 		width: 100%;
 		height: 100%;
 		margin: 0 auto;
-		padding: 5px;
+		padding: 2px;
 	}
 
 	label, a, p{
@@ -535,9 +530,8 @@ a:hover{
 	}
 
 	.title, #navbar li a{
-    font-size: 12px;
-    font-weight: bold;
-/*     margin-left: 5px; */
+	    font-size: 12px;
+	    font-weight: bold;
 
 }
 }
